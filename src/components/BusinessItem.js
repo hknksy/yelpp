@@ -6,6 +6,7 @@ const BusinessItem = ({ businesses, getRating }) => {
     return (
       <div className="item eight wide column  segment" key={business.id}>
         <img
+          alt="image title"
           className="ui image medium business-thumb"
           src={business.image_url}
         />
