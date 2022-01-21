@@ -1,0 +1,63 @@
+.business-thumb {
+  max-height: 150px;
+  object-fit: cover;
+  min-height: 150px !important;
+  background: url(https://semantic-ui.com/images/wireframe/image.png) no-repeat
+    center;
+  background-size: cover;
+}
+
+.business-header {
+  font-size: 110%;
+  font-weight: bold;
+  max-width: 240px;
+}
+
+.business-star-rating {
+  height: 18px !important;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 110px;
+}
+
+.business-star-rating img {
+  position: absolute;
+  top: -240px;
+}
+
+.rating-one {
+  top: -258px !important;
+}
+
+.rating-one-half {
+  top: -276px !important;
+}
+
+.rating-two {
+  top: -294px !important;
+}
+
+.rating-two-half {
+  top: -312px !important;
+}
+
+.rating-three {
+  top: -330px !important;
+}
+
+.rating-three-half {
+  top: -348px !important;
+}
+
+.rating-four {
+  top: -366px !important;
+}
+
+.rating-four-half {
+  top: -384px !important;
+}
+
+.rating-five {
+  top: -402px !important;
+}
