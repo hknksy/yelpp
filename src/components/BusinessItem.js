@@ -17,6 +17,7 @@ const BusinessItem = ({ businesses, getRating }) => {
               data-rating={business.rating}
             >
               <img
+                alt="img"
                 className={getRating(business.rating)}
                 src="https://s3-media0.fl.yelpcdn.com/assets/public/stars.yji-9bec2045845c24d3bff3ddb582884eda.png"
               />
