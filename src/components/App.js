@@ -7,7 +7,7 @@ class App extends React.Component {
   state = { businesses: [] };
 
   componentDidMount() {
-    this.onFormSubmit("restaurants", "turkey");
+    this.onFormSubmit("restaurants", "usa");
   }
 
   onFormSubmit = async (searchTerm, searchLocation) => {
@@ -29,7 +29,7 @@ class App extends React.Component {
       },
     });
     this.setState({ businesses: response.data.businesses });
-    console.log(response.data.businesses[0].location);
+    //console.log(response.data.businesses[0].location);
   };
 
   getRating = (rating) => {
