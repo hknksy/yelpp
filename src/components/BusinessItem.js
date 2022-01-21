@@ -6,7 +6,7 @@ const BusinessItem = ({ businesses, getRating }) => {
     return (
       <div className="item eight wide column  segment" key={business.id}>
         <img
-          alt="image title"
+          alt={business.name}
           className="ui image medium business-thumb"
           src={business.image_url}
         />
@@ -18,7 +18,7 @@ const BusinessItem = ({ businesses, getRating }) => {
               data-rating={business.rating}
             >
               <img
-                alt="img"
+                alt={business.name}
                 className={getRating(business.rating)}
                 src="https://s3-media0.fl.yelpcdn.com/assets/public/stars.yji-9bec2045845c24d3bff3ddb582884eda.png"
               />
